@@ -1,0 +1,16 @@
+@import "../../variables.scss";
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #434044;
+  color: #fff;
+  padding-top: 1rem;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 50%;
+
+  @media only screen and (max-width: 720px) {
+    width: 80%;
+  }
+}
